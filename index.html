@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	 <link rel="stylesheet"  href="css/base.css">
+	<link rel="stylesheet"  href="css/layout.css">
+	<link rel="stylesheet"  href="css/componentes.css">
+	<title>Cartel</title>
+</head>
+<body>
+
+	<header class="layout-cabecalho  layout-cabecalho--home">
+		<div class="container">
+
+			<nav class="navegacao">
+				<img src="img/cartel.png" width="100" height="35" alt="Cartel" > 	
+
+				<div class="navegacao__menu">
+					<button class="botao-chaveador js-botao-chaveador"></button>
+					<ul class="menu  js-menu">
+						<li class="menu__item">
+							<a href="contato.html" target="Cartel">Contatos</a>
+						</li>
+
+						<li class="menu__item">
+							<a href="#plano">Planos e Preços</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+	
+	</header>
+
+	<section class="layout-chamada">
+		<div class="container">
+			<div class="chamada">
+				<h1 class="chamada__titulo">Fazenda do Tio  Sam</h1>
+				<p class="chamada__subtitulo">A Fazenda do tio Sam onde todos fazem Grande Negocios</p>
+
+				<div class="chamada__acao">
+					<a href="#plano" class="botao  botao--principal">Conheça os Planos</a>
+				</div>
+				
+			</div>
+
+		</div>
+	</section>
+
+	<div class="layout-depoimento">
+		<div class="container">
+			
+			<div class="depoimento">
+			<blockquote>
+			No campo, a vida é só paz ,mas não é só sossego, tem muito trabalho e trabalho duro !
+			</blockquote>
+
+				<div class="depoimento__autor">
+					<img src="img/tiosam.png" width="110" height="175" alt="Tio Sam">
+					<p>Tio Sam</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="plano" class="layout-planos">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4"> 
+				<article class="plano">
+					<h2 class="plano__cabecalho">Ferradura</h2>
+					<div class="plano__preco">$44250</div>
+					<ul class="plano__caracteristicas">
+						<li>Atè <strong>2 Ferradura</strong></li>
+						<li><strong>10 Minutos</strong></li>
+						<li>sem négocios</li>
+						<li>tem Direíto um copo de leite</li>
+					</ul>
+					<footer class="plano__rodape">
+						<a href="#" class="botao botao--cadastrar">Contato</a>
+					</footer>
+				</article>
+				</div>
+
+				<div class="col-sm-4"> 
+				<article class="plano plano--mais-popular">
+					<h2 class="plano__cabecalho">Ferradura</h2>
+					<div class="plano__preco">$74250</div>
+					<ul class="plano__caracteristicas">
+						<li>Atè <strong>4 Ferradura</strong></li>
+						<li><strong>20 Minutos</strong></li>
+						<li>sem négocios</li>
+						<li>tem Direíto um copo Leite e um Caixa de Tomate</li>
+					</ul>
+					<footer class="plano__rodape">
+						<a href="#" class="botao botao--cadastrar">Contato</a>
+					</footer>
+				</article>
+				</div>
+
+				<div class="col-sm-4"  ultima-coluna> 
+				<article class="plano">
+					<h2 class="plano__cabecalho">Feno</h2>
+					<div class="plano__preco">$100000</div>
+					<ul class="plano__caracteristicas">
+						<li>Só <strong>por Imcomenda</strong></li>
+						<li><strong>5 dias</strong></li>
+						<li>sem négocios</li>
+						<li>só gerentes</li>
+					</ul>
+					<footer class="plano__rodape">
+						<a href="#" class="botao botao--cadastrar">Contato</a>
+					</footer>
+				</article>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="layout-rodape">
+		<div class="container">
+			<p>&copy; Cartel.Direitos Reservados</p>
+		</div>
+	</footer>
+
+	<script src="javascripts/app.js"></script>
+</body>
+</html>
